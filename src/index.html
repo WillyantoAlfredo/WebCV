@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="index.css" />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- icon -->
+    <script
+      src="https://kit.fontawesome.com/2503882b17.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- header navigasi -->
+    <header class="nav-container">
+      <div class="name-profile">
+        <img src="foto_almet.jpg" alt="profile" />
+        <h1>WILLYANTO ALFREDO</h1>
+      </div>
+      <nav class="nav-list">
+        <ul>
+          <li><a href="#content1">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- content -->
+    <main class="content-container">
+      <!-- content-utama -->
+      <section class="content-utama" id="content1">
+        <div class="content-descrip">
+          <h1 class="h1-one">Hello, I'm WILLYANTO</h1>
+          <h1 class="h1-two">I'm a Back-end Developer</h1>
+          <p>
+            Let me introduce myself, my name is Willyanto Alfredo, I come from Jambi province, West Tanjung Jabung district. I am currently studying for an undergraduate degree at Jambi University majoring in Information Systems
+          </p>
+          <div class="button-hire">
+            <button>hire me</button>
+            <button>download cv</button>
+          </div>
+        </div>
+        <div class="img-profile">
+          <img src="foto_almet.jpg" alt="profile" />
+        </div>
+      </section>
+      <!-- content about -->
+      <section class="section-about" id="about">
+        <h1>About Me</h1>
+        <div class="all-about">
+          <div class="about-profile">
+            <img src="foto_almet.jpg" alt="" />
+          </div>
+          <div class="about-descrip">
+            <h2>Summary</h2>
+            <p>
+              I am currently studying at Jambi University, as a 6th semester student majoring in Information Systems. During college, I have managed to combine theory with practice through group projects that then implement them. I am a hardworking individual in charge of tasks with good communication skills and can work together in groups. I have a desire to continue to develop UI/UX Design skills, System Analyst, Web development and other information system technologies. I look forward to continuing to develop myself and explore opportunities in the ever-evolving world of web development.
+            </p>
+          </div>
+        </div>
+        <!-- content skills -->
+      </section>
+      <section class="skills" id="skills">
+        <h1>Skills</h1>
+        <div class="skills-descrip">
+          <div class="card-skills">
+            <div class="card">
+              <i class="fa-brands fa-html5"></i>
+              <h2>HTML</h2>
+            </div>
+            <div class="card">
+              <i class="fa-brands fa-css3-alt"></i>
+              <h2>CSS</h2>
+             
+            </div>
+            <div class="card">
+              <i class="fa-brands fa-golang"></i>
+              <h2>GOLANG</h2>
+             
+            </div>
+            <div class="card">
+              <i class="fa-brands fa-figma"></i>
+              <h2>FIGMA</h2>
+              
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- section contact -->
+      <section class="contact" id="contact">
+        <h1>Contact Us</h1>
+        <div class="contact-container">
+          <div class="icon-mail">
+            <div class="icon2">
+              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+              <a href=""><i class="fa-brands fa-github"></i></a>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+            </div>
+          </div>
+          <div class="form-contact">
+            <form action="#">
+              <h2>Contact Form</h2>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Name"
+                required
+              /><br />
+
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Email"
+                required
+              /><br />
+
+              <input
+                type="text"
+                id="subject"
+                name="subject"
+                placeholder="Subject"
+                required
+              /><br />
+
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                cols="50"
+                placeholder="Message"
+                required
+              ></textarea
+              ><br />
+              <button>SEND EMAIL</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>Copyright &copy; 2024 Hak Cipta Dilindungi Undang-Undang.</p>
+    </footer>
+  </body>
+</html>
